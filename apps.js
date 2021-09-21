@@ -8,7 +8,7 @@ const fs = require("fs");
 const OUTPUT_DIR = path.resolve(__dirname, "output");
 const outputPath = path.join(OUTPUT_DIR, "team.html");
 
-const render = require("./render");
+const render = require("./js/render");
 //const Choices = require("inquirer/objects/choices");
 //const Choice = require("inquirer/objects/choice");
 
